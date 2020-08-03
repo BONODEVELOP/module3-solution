@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+  font-family: Tahoma, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#header-nav{
+  background-color: #a583e8;
+  border-radius: 0;
+  border: 0;
+  height:75px;
+}
+
+.navbar-brand{
+  padding-top: 25px
+}
+
+.navbar-brand h1{
+  font-family:  Tahoma, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform:uppercase;  /* transformar a mayuscula*/
+  font-weight: bold;   /* volver negrita */
+  text-shadow: 1px 1px 1px #222;  /* sombras de las letras */
+  margin-top:0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 5px;
+}
+
+#nav-list a { /*colorear iconos y ponerlos al centro */
+  color: black;
+  text-align: center;
+}
+
+#nav-list a:hover { /* cuando el cursor se ponga encima del icono cambiar de color*/
+  background: #ccc5d9;
+}
+#nav-list a span {
+  font-size: 1.2em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /*colorear los bordes del boton desplegable en modo telefono mobil*/
+  border: 1px solid #5a0ceb;
+}
+
+.navbar-header button.navbar-toggle { /*posicionar el boton desplegable*/
+  clear: both;
+  margin-top: -30px;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.0em;
+}
+
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+  font-size: 1.3em;
+  margin-right: 5px;
+}
+
+
+h1{
+  margin-bottom: 10px;
+  margin-top: 140px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.caja {
+  background-color: #cabce6;
+  border: 2px solid black;
+  width: 90%;
+  height: 500px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.cabeza {
+  background: #cabce6;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  margin:5px auto !important;
+  position:sticky;
+  top: 0px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.contenido{
+  margin: 30px auto;
+  padding: 20px;
+  width: 90% !important;
+  font-size: 19px;
+}
+
+.fila{
+  width: 100%;
+}
+
+
+@media (min-width: 992px ){
+  .colu-lg-4{
+    float:left;
+    width: 30%;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .colu-md-6{
+    float: left;
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .colu-md-12{
+    float: left;
+    width: 92.3%;
+  }
+}
